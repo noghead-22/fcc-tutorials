@@ -1,0 +1,22 @@
+.blue {
+    background-color: blue;
+    float:right;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue, .yellow, .green, .red{
+    height:100px;
+    width: 100px;
+    border: 1px black solid;
+}
+
+/* .container {
+    display:flex;
+} */

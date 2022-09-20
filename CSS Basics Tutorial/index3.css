@@ -1,0 +1,52 @@
+
+
+@media screen and (max-width: 1060px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 850px;
+        border: 3px solid blue;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .box {
+        width: 250px;
+        height: 250px;
+        background-color: pink;
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) and (max-width: 1020px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 690px;
+        border: 3px solid blue;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .box {
+        width: 250px;
+        height: 250px;
+        background-color: yellow;
+        display: inline-block;
+        margin: 10px;
+    }
+}
